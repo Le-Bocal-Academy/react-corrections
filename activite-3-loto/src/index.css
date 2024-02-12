@@ -1,0 +1,88 @@
+html, body, #root {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#e66465, #9198e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  height: 600px;
+  width: 500px;
+  background-color: #ffffffaa;
+  border-radius: 30px;
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0 0 20px 0;
+}
+
+.roulette img {
+  height: 200px;
+  margin-top: 10px;
+}
+
+.resultat {
+  position: absolute;
+  left: 49.1%;
+  bottom: 377px;
+  font-size: 27px;
+}
+
+.buttons {
+  display: flex;
+  margin: 20px;
+  gap: 50px;
+}
+
+/* CSS */
+button {
+  align-items: center;
+  background-image: linear-gradient(144deg,#e66465, #9198e5 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 7px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+button:active,
+button:hover {
+  outline: 0;
+}
+
+input[type=number], input[type=number]:focus {
+	width: 100px;
+	padding: 0.5em;
+	border: .2em solid #9198e5;
+	border-radius: 1em;
+	text-align: center;
+	color: #9198e5;
+	appearance: textfield;
+	margin: 0;
+}

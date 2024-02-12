@@ -1,0 +1,16 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+#articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.App {
+  padding-bottom: 200px;
+}

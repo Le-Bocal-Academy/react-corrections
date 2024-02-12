@@ -1,0 +1,28 @@
+html, #root, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.books {
+  display: flex;
+  flex-direction: row;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: solid;
+  padding-left: 100px;
+  box-sizing: border-box;
+}

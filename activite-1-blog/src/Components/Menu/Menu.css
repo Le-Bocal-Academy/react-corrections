@@ -1,0 +1,29 @@
+#menuNav {
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+
+#menuLinks {
+    display: flex;
+    align-items: center;
+
+}
+
+#menuLinks span{
+    width: 100px;
+    text-transform:uppercase;
+}
+
+#menuNav img {
+    height: 95%;
+}
