@@ -1,6 +1,9 @@
+//Import de book pour utiliser les composants
 import Book from "./Components/Book/Book";
 
+//composant principal
 function App() {
+  // tableau contenant les différents livres à afficher
   const books =[{
                   "title": "Le seigneur des anneaux", 
                   "author": "JRR Tolkien", 
@@ -28,7 +31,9 @@ function App() {
       </nav>
       <section className="books">
       {
+        // pour chaque livre du tableau books
         books.map((book)=> {
+          // je créé un composant book contenant un auteur un titre, ...
           return <Book author={book.author} title={book.title} note={book.note} date={book.date} image={book.image}/>
         })
       }
