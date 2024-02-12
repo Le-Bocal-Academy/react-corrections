@@ -1,0 +1,34 @@
+
+#menuNav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #f0e6f6; /* Un fond pastel doux */
+    padding: 10px 20px; /* Un peu d'espace autour des éléments */
+    display: flex;
+    justify-content: space-between; /* Sépare les liens et le logo */
+    align-items: center; /* Centre verticalement les éléments */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Une légère ombre pour un effet de profondeur */
+}
+
+#menuNav #menuLinks {
+    display: flex; /* Alignement horizontal des liens */
+    gap: 20px; /* Espacement entre les liens */
+}
+
+#menuNav #menuLinks a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: #6868AC; /* Couleur pastel des liens */
+    font-weight: bold; /* Rend le texte un peu plus épais */
+    transition: color 0.3s; /* Transition douce pour le survol */
+}
+
+#menuNav #menuLinks a:hover {
+    color: #9b88b5; /* Changement de couleur au survol */
+}
+
+#menuNav img {
+    height: 50px; /* Taille du logo */
+    width: auto; /* Maintient le ratio du logo */
+}
