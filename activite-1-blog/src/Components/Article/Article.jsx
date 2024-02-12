@@ -1,5 +1,7 @@
+//import du CSS pour un coté graphique
 import './Article.css';
 
+//composant article simple
 function Article () {
     return <>
         <section className='article'>
@@ -8,4 +10,5 @@ function Article () {
         </section>
     </>;
 }
+//export pour rendre le fichier disponible dans toute l'application
 export default Article;

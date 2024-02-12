@@ -1,6 +1,9 @@
+//import du CSS pour un aspect graphique
 import "./Menu.css";
+//import d'un logo présent dans le même dossier
 import logo from "./logo.png" ;
 
+//composant Menu simple
 function Menu () {
     return <>
         <nav id="menuNav">
@@ -13,4 +16,5 @@ function Menu () {
         </nav>
     </>;
 }
+//export pour rendre le fichier disponible dans toute l'application
 export default Menu;

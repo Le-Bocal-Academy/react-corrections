@@ -1,6 +1,9 @@
+//import du css pour un aspect graphique
 import "./Footer.css";
+//import d'un logo présent dans le même dossier
 import logo from "./logo.png" ;
 
+//composant footer simple
 function Footer () {
     return <>
         <footer id="theFooter">
@@ -13,4 +16,5 @@ function Footer () {
         </footer>
     </>;
 }
+//export pour rendre le fichier disponible dans toute l'application
 export default Footer;
