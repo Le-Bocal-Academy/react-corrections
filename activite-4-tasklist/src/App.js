@@ -15,7 +15,7 @@ function App() {
 
   const supprfct = (id) => {
     const textContent = tasksList[id]; //Je récupère la tache concernée par la modification
-    setTaskList(tasksList.filter(task => return task !== textContent)); //on ajoute un élément dans la liste
+    setTaskList(tasksList.filter(task => task !== textContent)); //on ajoute un élément dans la liste
   }
 
   const modiffct = (id) => {

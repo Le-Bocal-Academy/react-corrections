@@ -1,0 +1,52 @@
+.post {
+    background-color: #f9f9f9; /* Un fond clair, mais pas blanc pur */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Une légère ombre */
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out; /* Animation au survol */
+}
+
+.post:hover {
+    transform: scale(1.03); /* Légère agrandissement au survol */
+}
+
+.post h1 {
+    color: #333; /* Couleur foncée pour le titre */
+    font-family: 'Arial', sans-serif; /* Police moderne */
+}
+
+.infos {
+    margin-top: 10px;
+}
+
+.infos h2 {
+    color: #007bff; /* Couleur bleue vive pour l'auteur */
+    font-size: 1.2em;
+}
+
+.infos h3 {
+    color: #666; /* Gris foncé pour le contenu */
+    font-size: 1em;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.likes button {
+    background-color: #28a745; /* Vert pour le bouton J'aime */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.likes button:hover {
+    background-color: #218838; /* Vert plus foncé au survol */
+}
