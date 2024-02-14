@@ -1,0 +1,40 @@
+html, #root, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+.counter {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.counter h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.counter button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.counter button:hover {
+  background-color: #0056b3;
+}
