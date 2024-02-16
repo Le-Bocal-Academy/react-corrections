@@ -1,0 +1,45 @@
+body {
+  background-color: #EFEBE9;
+  color: #795548;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 2px solid #D7CCC8;
+}
+
+.Article {
+  background-color: white;
+  border: 1px solid #A1887F;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.articleImage {
+  width: 100%;
+  border: 1px solid #A1887F;
+}
+
+.articleContent {
+  color: #795548;
+}
+
+button {
+  background-color: #795548;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #A1887F;
+}
+
+@media (max-width: 768px) {
+  .Article {
+    padding: 10px;
+  }
+}
